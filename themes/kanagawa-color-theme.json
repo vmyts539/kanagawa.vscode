@@ -323,21 +323,13 @@
             "name": "Class, Support",
             "scope": [
                 "entity.name",
+                "support.type",
                 "support.class",
                 "support.other.namespace.use.php",
                 "meta.use.php",
                 "support.other.namespace.php",
                 "markup.changed.git_gutter",
                 "support.type.sys-types"
-            ],
-            "settings": {
-                "foreground": "#E6C384"
-            }
-        },
-        {
-            "name": "Entity Types",
-            "scope": [
-                "support.type"
             ],
             "settings": {
                 "foreground": "#7AA89F"
