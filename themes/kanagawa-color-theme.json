@@ -328,11 +328,19 @@
                 "support.other.namespace.use.php",
                 "meta.use.php",
                 "support.other.namespace.php",
-                "markup.changed.git_gutter",
                 "support.type.sys-types"
             ],
             "settings": {
                 "foreground": "#7AA89F"
+            }
+        },
+        {
+            "name": "Module",
+            "scope": [
+                "entity.name.type.module"
+            ],
+            "settings": {
+                "foreground": "#DCD7BA"
             }
         },
         {
