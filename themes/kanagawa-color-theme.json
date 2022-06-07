@@ -254,6 +254,15 @@
             }
         },
         {
+            "name": "HTML Tag",
+            "scope": [
+                "entity.name.tag.html"
+            ],
+            "settings": {
+                "foreground": "#957FB8"
+            }
+        },
+        {
             "name": "Function, Special Method",
             "scope": [
                 "entity.name.function",
@@ -290,7 +299,7 @@
                 "string.other.link"
             ],
             "settings": {
-                "foreground": "#FF5D62"
+                "foreground": "#FFA066"
             }
         },
         {
@@ -344,7 +353,8 @@
                 "entity.other.inherited-class",
                 "markup.heading",
                 "markup.inserted.git_gutter",
-                "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
+                "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
+                "markup.inline.raw.string"
             ],
             "settings": {
                 "foreground": "#98BB6C"
@@ -458,8 +468,9 @@
         {
             "name": "HTML Attributes",
             "scope": [
-                "text.html.basic entity.other.attribute-name.html",
-                "text.html.basic entity.other.attribute-name"
+                "entity.other.attribute-name.html",
+                "entity.other.attribute-name",
+                "invalid.deprecated.entity.other.attribute-name.html"
             ],
             "settings": {
                 "foreground": "#E6C384"
@@ -652,7 +663,7 @@
         {
             "name": "Markdown - Markup Raw Inline",
             "scope": [
-                "text.html.markdown markup.inline.raw.markdown"
+                "text.html.markdown markup.inline.raw.markdown",
             ],
             "settings": {
                 "foreground": "#957FB8"
@@ -671,11 +682,11 @@
             "name": "Markdown - Heading",
             "scope": [
                 "markdown.heading",
-                "markup.heading | markup.heading entity.name",
-                "markup.heading.markdown punctuation.definition.heading.markdown"
+                "entity.name.section.markdown",
+                "markup.heading.markdown"
             ],
             "settings": {
-                "foreground": "#98BB6C"
+                "foreground": "#7E9CD8"
             }
         },
         {
@@ -695,8 +706,7 @@
                 "markup.bold string"
             ],
             "settings": {
-                "fontStyle": "bold",
-                "foreground": "#E46876"
+                "fontStyle": "bold"
             }
         },
         {
@@ -721,7 +731,7 @@
             ],
             "settings": {
                 "fontStyle": "underline",
-                "foreground": "#FFA066"
+                "foreground": "#7FB4CA"
             }
         },
         {
@@ -748,7 +758,7 @@
                 "string.other.link.title.markdown"
             ],
             "settings": {
-                "foreground": "#7E9CD8"
+                "foreground": "#FFA066"
             }
         },
         {
