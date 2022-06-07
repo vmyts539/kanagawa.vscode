@@ -235,7 +235,8 @@
                 "punctuation.definition.tag.begin.html",
                 "punctuation.definition.tag.end.html",
                 "punctuation.section.embedded",
-                "meta.brace"
+                "meta.brace",
+                "keyword.operator.type.annotation"
             ],
             "settings": {
                 "foreground": "#9CABCA"
