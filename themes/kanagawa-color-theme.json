@@ -263,9 +263,17 @@
             }
         },
         {
-            "name": "Other Variable, String Link",
+            "name": "Other Variable",
             "scope": [
-                "support.other.variable",
+                "support.other.variable"
+            ],
+            "settings": {
+                "foreground": "#DCD7BA"
+            }
+        },
+        {
+            "name": "String Link",
+            "scope": [
                 "string.other.link"
             ],
             "settings": {
