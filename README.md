@@ -8,7 +8,7 @@
 
 <p align="center">
 VS Code port of amazing <a href="https://github.com/rebelot/kanagawa.nvim">KANAGAWA.nvim</a> theme by rebelot.
-All credit for porting goes to <a href="https://github.com/conner-calhoun">conner-calhoun</a>.
+Credit for initial porting goes to <a href="https://github.com/conner-calhoun">conner-calhoun</a>.
 </p>
 
 <!-- <p align="center"> -->
