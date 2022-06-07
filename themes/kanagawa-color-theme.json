@@ -292,13 +292,22 @@
             }
         },
         {
-            "name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
+            "name": "Constant, Function Argument, Tag Attribute, Embedded",
             "scope": [
                 "constant.numeric",
                 "constant.language",
                 "support.constant",
                 "constant.character",
                 "constant.escape"
+            ],
+            "settings": {
+                "foreground": "#7FB4CA"
+            }
+        },
+        {
+            "name": "Number",
+            "scope": [
+                "constant.numeric"
             ],
             "settings": {
                 "foreground": "#D27E99"
@@ -308,7 +317,8 @@
             "name": "Identifiers",
             "scope": [
                 "keyword.other.unit",
-                "keyword.other"
+                "keyword.other",
+                "keyword.operator"
             ],
             "settings": {
                 "foreground": "#E6C384"
