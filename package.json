@@ -5,7 +5,7 @@
     "version": "0.0.1",
     "repository": {
         "type": "git",
-        "url": "https://github.com/conner-calhoun/kanagawa.vscode.git"
+        "url": "https://github.com/barklan/kanagawa.vscode"
     },
     "engines": {
         "vscode": "^1.63.0"
@@ -18,7 +18,7 @@
             {
                 "label": "Kanagawa",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Kanagawa-color-theme.json"
+                "path": "./themes/kanagawa-color-theme.json"
             }
         ]
     }
