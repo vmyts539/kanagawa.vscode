@@ -363,6 +363,16 @@
             }
         },
         {
+            "name": "Import",
+            "scope": [
+                "keyword.control.import",
+                "meta.import"
+            ],
+            "settings": {
+                "foreground": "#FFA066"
+            }
+        },
+        {
             "name": "CSS Class and Support",
             "scope": [
                 "source.css support.type.property-name",
@@ -806,6 +816,8 @@
         }
     ],
     "semanticTokenColors": {
-        "parameter.declaration": "#E6C384"
+        "parameter.declaration": "#E6C384",
+        "variable.readonly": "#FFA066",
+        "variable.readonly.local": "#DCD7BA"
     }
 }
