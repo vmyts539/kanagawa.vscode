@@ -23,8 +23,8 @@
         "editor.findMatchHighlightBackground": "#2D4F67",
         "editor.foreground": "#DCD7BA",
         "editorHoverWidget.highlightForeground": "#658594",
-        "editorInlayHint.foreground": "#DCD7BA",
-        "editorInlayHint.background": "#16161D",
+        "editorInlayHint.foreground": "#727169",
+        "editorInlayHint.background": "#1F1F28",
         "editor.lineHighlightBackground": "#363646",
         "editorLineNumber.activeForeground": "#957FB8",
         "editorGutter.addedBackground": "#76946A",
@@ -76,6 +76,7 @@
         "minimapGutter.deletedBackground": "#C34043",
         "minimapGutter.modifiedBackground": "#DCA561",
         "panel.border": "#16161D",
+        "sideBar.border": "#16161D",
         "panelSectionHeader.background": "#1f1f28",
         "peekViewEditor.background": "#1F1F28",
         "peekViewEditor.matchHighlightBackground": "#363646",
@@ -176,15 +177,6 @@
             }
         },
         {
-            "name": "Keyword",
-            "scope": [
-                "keyword"
-            ],
-            "settings": {
-                "foreground": "#957FB8"
-            }
-        },
-        {
             "name": "Storage - Type",
             "scope": [
                 "storage.type"
@@ -227,6 +219,16 @@
             }
         },
         {
+            "name": "Identifiers",
+            "scope": [
+                "keyword.other.unit",
+                "keyword.operator"
+            ],
+            "settings": {
+                "foreground": "#C0A36E"
+            }
+        },
+        {
             "name": "Punctuation, Brace",
             "scope": [
                 "punctuation",
@@ -237,7 +239,8 @@
                 "punctuation.definition.tag.end.html",
                 "punctuation.section.embedded",
                 "meta.brace",
-                "keyword.operator.type.annotation"
+                "keyword.operator.type.annotation",
+                "keyword.operator.namespace"
             ],
             "settings": {
                 "foreground": "#9CABCA"
@@ -273,6 +276,15 @@
             ],
             "settings": {
                 "foreground": "#7E9CD8"
+            }
+        },
+        {
+            "name": "Macto",
+            "scope": [
+                "entity.name.function.macro"
+            ],
+            "settings": {
+                "foreground": "#FFA066"
             }
         },
         {
@@ -334,16 +346,6 @@
             }
         },
         {
-            "name": "Identifiers",
-            "scope": [
-                "keyword.other.unit",
-                "keyword.operator"
-            ],
-            "settings": {
-                "foreground": "#E6C384"
-            }
-        },
-        {
             "name": "String, Symbols, Inherited Class, Markup Heading",
             "scope": [
                 "string",
@@ -376,9 +378,10 @@
             }
         },
         {
-            "name": "Module",
+            "name": "Namespace, Module",
             "scope": [
-                "entity.name.type.module"
+                "entity.name.type.module",
+                "entity.name.namespace"
             ],
             "settings": {
                 "foreground": "#DCD7BA"
@@ -397,6 +400,7 @@
             "name": "Import",
             "scope": [
                 "keyword.control.import",
+                "keyword.import",
                 "meta.import"
             ],
             "settings": {
@@ -663,7 +667,7 @@
         {
             "name": "Markdown - Markup Raw Inline",
             "scope": [
-                "text.html.markdown markup.inline.raw.markdown",
+                "text.html.markdown markup.inline.raw.markdown"
             ],
             "settings": {
                 "foreground": "#957FB8"
@@ -847,9 +851,17 @@
         }
     ],
     "semanticTokenColors": {
+        "parameter": "#DCD7BA", 
+        "variable": "#DCD7BA", 
+        "arithmetic": "#C0A36E", 
+        "method": "#7E9CD8",
+        "function": "#7E9CD8",
+        "operator": "#C0A36E",
         "parameter.declaration": "#E6C384",
         "parameter.definition": "#E6C384",
         "variable.readonly": "#FFA066",
-        "variable.readonly.local": "#DCD7BA"
+        "variable.readonly.local": "#DCD7BA",
+        "variable.readonly.defaultLibrary": "#7FB4CA",
+        "macro": "#FFA066"
     }
 }
