@@ -29,7 +29,7 @@
         "editorGutter.addedBackground": "#2B3328",
         "editorGutter.deletedBackground": "#43242B",
         "editorGutter.modifiedBackground": "#49443C",
-        "editor.selectionBackground": "#363646",
+        "editor.selectionBackground": "#223249",
         "editor.selectionHighlightBackground": "#363646",
         "editor.selectionHighlightBorder": "#54546D",
         "editor.wordHighlightBackground": "#363646",
@@ -123,7 +123,7 @@
         "terminal.background": "#1F1F28",
         "terminal.border": "#16161D",
         "terminal.foreground": "#DCD7BA",
-        "terminal.selectionBackground": "#363646",
+        "terminal.selectionBackground": "#223249",
         "textBlockQuote.background": "#1F1F28",
         "textBlockQuote.border": "#16161D",
         "textLink.foreground": "#6A9589",
@@ -180,7 +180,7 @@
                 "keyword"
             ],
             "settings": {
-                "foreground": "#FFA066"
+                "foreground": "#957FB8"
             }
         },
         {
