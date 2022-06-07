@@ -2,7 +2,7 @@
     "name": "kanagawa",
     "displayName": "Kanagawa",
     "description": "A color theme based on colors from https://github.com/rebelot/kanagawa.nvim",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "qufiwefefwoyn",
     "icon": "assets/logo.png",
     "repository": {
