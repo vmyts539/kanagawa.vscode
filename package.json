@@ -1,7 +1,7 @@
 {
     "name": "kanagawa",
     "displayName": "Kanagawa",
-    "description": "A color theme based on colors from https://github.com/rebelot/kanagawa.nvim",
+    "description": "A VS Code port of the Kanagawa.nvim color theme.",
     "version": "0.0.3",
     "publisher": "qufiwefefwoyn",
     "icon": "assets/logo.png",
