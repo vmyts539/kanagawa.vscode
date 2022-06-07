@@ -209,7 +209,8 @@
                 "constant.other.color",
                 "meta.tag",
                 "keyword.other.template",
-                "keyword.other.substitution"
+                "keyword.other.substitution",
+                "keyword.other"
             ],
             "settings": {
                 "foreground": "#957FB8"
@@ -319,7 +320,6 @@
             "name": "Identifiers",
             "scope": [
                 "keyword.other.unit",
-                "keyword.other",
                 "keyword.operator"
             ],
             "settings": {
@@ -330,6 +330,7 @@
             "name": "String, Symbols, Inherited Class, Markup Heading",
             "scope": [
                 "string",
+                "punctuation.definition.string",
                 "constant.other.symbol",
                 "constant.other.key",
                 "entity.other.inherited-class",
