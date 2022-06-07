@@ -247,11 +247,10 @@
             "name": "Tag",
             "scope": [
                 "entity.name.tag",
-                "meta.tag.sgml",
-                "markup.deleted.git_gutter"
+                "meta.tag.sgml"
             ],
             "settings": {
-                "foreground": "#FF5D62"
+                "foreground": "#E6C384"
             }
         },
         {
@@ -305,6 +304,15 @@
             ],
             "settings": {
                 "foreground": "#7FB4CA"
+            }
+        },
+        {
+            "name": "Boolean",
+            "scope": [
+                "constant.language.boolean"
+            ],
+            "settings": {
+                "foreground": "#FFA066"
             }
         },
         {
@@ -830,6 +838,7 @@
     ],
     "semanticTokenColors": {
         "parameter.declaration": "#E6C384",
+        "parameter.definition": "#E6C384",
         "variable.readonly": "#FFA066",
         "variable.readonly.local": "#DCD7BA"
     }
