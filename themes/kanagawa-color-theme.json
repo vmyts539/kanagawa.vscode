@@ -1,6 +1,7 @@
 {
     "name": "Kanagawa",
     "type": "dark",
+    "semanticHighlighting": true,
     "colors": {
         "activityBar.background": "#2A2A37",
         "activityBar.foreground": "#DCD7BA",
@@ -211,6 +212,16 @@
                 "keyword.other.substitution"
             ],
             "settings": {
+                "foreground": "#957FB8"
+            }
+        },
+        {
+            "name": "Operator, Misc",
+            "scope": [
+                "keyword.control.trycatch",
+                "keyword.control.flow"
+            ],
+            "settings": {
                 "foreground": "#FF5D62"
             }
         },
@@ -296,7 +307,6 @@
         {
             "name": "Identifiers",
             "scope": [
-                "variable.parameter",
                 "keyword.other.unit",
                 "keyword.other"
             ],
@@ -785,5 +795,8 @@
                 "foreground": "#DCD7BA"
             }
         }
-    ]
+    ],
+    "semanticTokenColors": {
+        "parameter.declaration": "#E6C384"
+    }
 }
