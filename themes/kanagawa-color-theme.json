@@ -226,7 +226,7 @@
             }
         },
         {
-            "name": "Punctuation",
+            "name": "Punctuation, Brace",
             "scope": [
                 "punctuation",
                 "punctuation.definition.tag",
@@ -234,7 +234,8 @@
                 "punctuation.definition.tag.html",
                 "punctuation.definition.tag.begin.html",
                 "punctuation.definition.tag.end.html",
-                "punctuation.section.embedded"
+                "punctuation.section.embedded",
+                "meta.brace"
             ],
             "settings": {
                 "foreground": "#9CABCA"
