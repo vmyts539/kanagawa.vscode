@@ -190,7 +190,7 @@
                 "storage.type"
             ],
             "settings": {
-                "foreground": "#7AA89F"
+                "foreground": "#957FB8"
             }
         },
         {
@@ -351,6 +351,15 @@
             ],
             "settings": {
                 "foreground": "#DCD7BA"
+            }
+        },
+        {
+            "name": "Property",
+            "scope": [
+                "variable.other.property"
+            ],
+            "settings": {
+                "foreground": "#E6C384"
             }
         },
         {
