@@ -57,3 +57,40 @@ Enabled by default.
     "csharp.semanticHighlighting.enabled": true
 }
 ```
+
+## Customization
+
+### Comments
+
+If you prefer comments to stand out in your code - this looks nice:
+
+```json
+{
+    "editor.tokenColorCustomizations": {
+        "[Kanagawa]": {
+            "comments": {
+                "foreground": "#FF9E3B"
+            }
+        }
+    }
+}
+```
+
+Paste it in your `settings.json`.
+
+### Statusbar
+
+If you prefer more contrast in status bar, paste this in your `settings.json`:
+
+```json
+{
+    "workbench.colorCustomizations": {
+        "[Kanagawa]": {
+            "statusBar.background": "#16161D",
+            "statusBar.foreground": "#C8C093",
+            "statusBarItem.remoteBackground": "#7E9CD8",
+            "statusBarItem.remoteForeground": "#16161D"
+        }
+    }
+}
+```
