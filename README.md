@@ -1,6 +1,6 @@
 <p align="center">
   <h2 align="center">🌊 KANAGAWA.vscode 🌊</h2>
-  <img src="https://img.shields.io/visual-studio-marketplace/i/qufiwefefwoyn.kanagawa" />
+  <p align="center"><img src="https://img.shields.io/visual-studio-marketplace/i/qufiwefefwoyn.kanagawa" /></p>
 </p>
 
 
