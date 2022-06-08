@@ -2,7 +2,7 @@
     "name": "kanagawa",
     "displayName": "Kanagawa",
     "description": "A VS Code port of the Kanagawa.nvim color theme.",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "publisher": "qufiwefefwoyn",
     "icon": "assets/logo.png",
     "repository": {
@@ -15,6 +15,32 @@
     },
     "categories": [
         "Themes"
+    ],
+    "keywords": [
+        "theme",
+        "contrast",
+        "dark",
+        "kanagawa",
+        "clean",
+        "elegant",
+        "calm"
+    ],
+    "badges": [
+        {
+            "url": "https://vsmarketplacebadge.apphb.com/version/qufiwefefwoyn.kanagawa.svg",
+            "href": "https://marketplace.visualstudio.com/items/qufiwefefwoyn.kanagawa",
+            "description": "Extension version"
+        },
+        {
+            "url": "https://vsmarketplacebadge.apphb.com/installs/qufiwefefwoyn.kanagawa.svg",
+            "href": "https://marketplace.visualstudio.com/items/qufiwefefwoyn.kanagawa",
+            "description": "Extension installs"
+        },
+        {
+            "url": "https://vsmarketplacebadge.apphb.com/rating/qufiwefefwoyn.kanagawa.svg",
+            "href": "https://marketplace.visualstudio.com/items/qufiwefefwoyn.kanagawa",
+            "description": "Extension Rating"
+        }
     ],
     "contributes": {
         "themes": [
