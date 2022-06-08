@@ -1,6 +1,8 @@
 <p align="center">
   <h2 align="center">🌊 KANAGAWA.vscode 🌊</h2>
+  <img src="https://img.shields.io/visual-studio-marketplace/i/qufiwefefwoyn.kanagawa" />
 </p>
+
 
 <p align="center">
   <img src="assets/logo.png" width="600" >
@@ -14,3 +16,35 @@ Credit for initial port goes to <a href="https://github.com/conner-calhoun">conn
 <p align="center">
   <h2 align="center"><img src="assets/screenshot.png"></h2>
 </p>
+
+## Semantic tokens
+
+Theme supports and recommends enabling semantic tokens.
+
+### TypeScript
+
+Enabled by default.
+
+### Go
+
+```json
+{
+    "gopls.ui.semanticTokens": true
+}
+```
+
+#### rust-analyzer
+
+```json
+{
+    "rust-analyzer.highlighting.strings": true
+}
+```
+
+#### `C#`
+
+```json
+{
+    "csharp.semanticHighlighting.enabled": true
+}
+```
