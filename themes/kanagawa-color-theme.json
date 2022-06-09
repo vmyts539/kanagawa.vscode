@@ -195,6 +195,18 @@
             }
         },
         {
+            "name": "Control Keyword",
+            "scope": [
+                "keyword.control.flow",
+                "keyword.control.conditional",
+                "keyword.control.loop"
+            ],
+            "settings": {
+                "foreground": "#957FB8",
+                "fontStyle": "bold"
+            }
+        },
+        {
             "name": "Operator, Misc",
             "scope": [
                 "keyword.control",
@@ -215,7 +227,8 @@
                 "keyword.control.flow"
             ],
             "settings": {
-                "foreground": "#FF5D62"
+                "foreground": "#FF5D62",
+                "fontStyle": "bold"
             }
         },
         {
@@ -862,6 +875,10 @@
         "variable.readonly": "#FFA066",
         "variable.readonly.local": "#DCD7BA",
         "variable.readonly.defaultLibrary": "#7FB4CA",
-        "macro": "#FFA066"
+        "macro": "#FFA066",
+        "keyword.controlFlow": {
+            "foreground": "#957FB8",
+            "fontStyle": "bold"
+        }
     }
 }
