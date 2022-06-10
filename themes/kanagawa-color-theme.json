@@ -223,8 +223,7 @@
         {
             "name": "Operator, Misc",
             "scope": [
-                "keyword.control.trycatch",
-                "keyword.control.flow"
+                "keyword.control.trycatch"
             ],
             "settings": {
                 "foreground": "#FF5D62",
