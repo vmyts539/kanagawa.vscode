@@ -2,7 +2,7 @@
     "name": "kanagawa",
     "displayName": "Kanagawa",
     "description": "A VS Code port of the Kanagawa.nvim color theme.",
-    "version": "1.2.2",
+    "version": "1.2.3",
     "publisher": "qufiwefefwoyn",
     "icon": "assets/icon.png",
     "repository": {
