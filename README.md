@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/logo.png" width="600" >
+  <img src="assets/main.png" width="600" >
 </p>
 
 <p align="center">
@@ -38,7 +38,7 @@ Enabled by default.
 
 ```json
 {
-    "gopls.ui.semanticTokens": true
+  "gopls.ui.semanticTokens": true
 }
 ```
 
@@ -46,7 +46,7 @@ Enabled by default.
 
 ```json
 {
-    "rust-analyzer.highlighting.strings": true
+  "rust-analyzer.highlighting.strings": true
 }
 ```
 
@@ -54,7 +54,7 @@ Enabled by default.
 
 ```json
 {
-    "csharp.semanticHighlighting.enabled": true
+  "csharp.semanticHighlighting.enabled": true
 }
 ```
 
@@ -66,13 +66,13 @@ If you prefer comments to stand out in your code - this looks nice:
 
 ```json
 {
-    "editor.tokenColorCustomizations": {
-        "[Kanagawa]": {
-            "comments": {
-                "foreground": "#FF9E3B"
-            }
-        }
+  "editor.tokenColorCustomizations": {
+    "[Kanagawa]": {
+      "comments": {
+        "foreground": "#FF9E3B"
+      }
     }
+  }
 }
 ```
 
@@ -84,13 +84,13 @@ If you prefer more contrast in status bar, paste this in your `settings.json`:
 
 ```json
 {
-    "workbench.colorCustomizations": {
-        "[Kanagawa]": {
-            "statusBar.background": "#16161D",
-            "statusBar.foreground": "#C8C093",
-            "statusBarItem.remoteBackground": "#7E9CD8",
-            "statusBarItem.remoteForeground": "#16161D"
-        }
+  "workbench.colorCustomizations": {
+    "[Kanagawa]": {
+      "statusBar.background": "#16161D",
+      "statusBar.foreground": "#C8C093",
+      "statusBarItem.remoteBackground": "#7E9CD8",
+      "statusBarItem.remoteForeground": "#16161D"
     }
+  }
 }
 ```
