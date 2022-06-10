@@ -80,23 +80,6 @@ If you prefer comments to stand out in your code - this looks nice:
 
 Paste it in your `settings.json`.
 
-### Statusbar
-
-If you prefer more contrast in status bar, paste this in your `settings.json`:
-
-```json
-{
-  "workbench.colorCustomizations": {
-    "[Kanagawa]": {
-      "statusBar.background": "#16161D",
-      "statusBar.foreground": "#C8C093",
-      "statusBarItem.remoteBackground": "#7E9CD8",
-      "statusBarItem.remoteForeground": "#16161D"
-    }
-  }
-}
-```
-
 ## Misc
 
 You can find this theme's colors for different terminal emulators [here](https://github.com/rebelot/kanagawa.nvim#extras).
