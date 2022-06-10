@@ -2,7 +2,7 @@
     "name": "kanagawa",
     "displayName": "Kanagawa",
     "description": "Port of the Kanagawa.nvim - dark theme inspired by the colors of the famous painting by Katsushika Hokusai.",
-    "version": "1.2.9",
+    "version": "1.2.10",
     "publisher": "qufiwefefwoyn",
     "icon": "assets/icon.png",
     "repository": {
