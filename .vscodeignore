@@ -1,6 +1,6 @@
+!assets/icon.png
+.github/**
 .vscode/**
-.vscode-test/**
+assets/**
 .gitignore
-
-assets/main.png
-assets/screenshot.png
+*.vsix
