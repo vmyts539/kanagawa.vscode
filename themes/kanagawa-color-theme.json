@@ -221,6 +221,15 @@
             }
         },
         {
+            "name": "ini file definition",
+            "scope": [
+                "keyword.other.definition.ini"
+            ],
+            "settings": {
+                "foreground": "#FFA066"
+            }
+        },
+        {
             "name": "Operator, Misc",
             "scope": [
                 "keyword.control.trycatch"
