@@ -400,6 +400,15 @@
             }
         },
         {
+            "name": "Go import",
+            "scope": [
+                "entity.name.import.go"
+            ],
+            "settings": {
+                "foreground": "#98BB6C"
+            }
+        },
+        {
             "name": "Property",
             "scope": [
                 "variable.other.property"
