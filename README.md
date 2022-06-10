@@ -17,8 +17,10 @@
   <img src="assets/main.png" width="600" >
 </p>
 
+<br>
+
 <p align="center">
-VS Code port of amazing <a href="https://github.com/rebelot/kanagawa.nvim">KANAGAWA.nvim</a> theme by rebelot.
+<b>VS Code port of amazing <a href="https://github.com/rebelot/kanagawa.nvim">KANAGAWA.nvim</a>colorscheme by rebelot.</b>
 Credit for initial port goes to <a href="https://github.com/conner-calhoun">conner-calhoun</a>.
 </p>
 
