@@ -96,3 +96,8 @@ If you prefer more contrast in status bar, paste this in your `settings.json`:
   }
 }
 ```
+
+## Misc
+
+You can find this theme's colors for different terminal emulators [here](https://github.com/rebelot/kanagawa.nvim#extras).
+If you like this theme, consider supporting [original author](https://github.com/rebelot/kanagawa.nvim#donate).
