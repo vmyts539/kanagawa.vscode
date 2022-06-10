@@ -20,7 +20,7 @@
 <br>
 
 <p align="center">
-<b>VS Code port of amazing <a href="https://github.com/rebelot/kanagawa.nvim">KANAGAWA.nvim</a>colorscheme by rebelot.</b>
+VS Code port of amazing <a href="https://github.com/rebelot/kanagawa.nvim">KANAGAWA.nvim</a> colorscheme by rebelot.
 Credit for initial port goes to <a href="https://github.com/conner-calhoun">conner-calhoun</a>.
 </p>
 
